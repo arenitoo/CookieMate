@@ -24,10 +24,10 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.purple, // Cor de fundo roxa
+      backgroundColor: Colors.deepPurpleAccent[400], // Cor de fundo roxa
       body: Center(
         child: Text(
-          'MealMate',
+          'CookieMate',
           style: TextStyle(
             fontSize: 40,
             fontWeight: FontWeight.bold,
